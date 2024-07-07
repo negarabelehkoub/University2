@@ -1,0 +1,986 @@
+/* İTÜ OİDB CSS - İTÜ Bilgi İşlem Daire Başkanlığı /// ismail akin  /// 25.02.2021*/
+@media(min-width:1200px){
+	.header__main-menu > ul{
+		overflow:visible !important;
+	}
+}
+
+
+.header__logo img {
+            height: 60px;
+            margin-bottom: 15px;
+        }
+        .visible-xs img {
+            height: 48px;
+            margin-bottom: 4px;
+        
+        }
+        @media (min-width: 1440px){
+          .slider, .slider__item {
+    height: 550px;
+}  
+        }
+        @media (max-width: 1200px){
+          .slider, .slider__item {
+              height: 360px;
+              margin-top: 40px;
+}  
+        }
+
+        .navbar-top {
+    position: relative;
+    background-color: #fff;
+}
+        
+      .navbar-top  a {
+    color: #062a54;
+    text-decoration: none;
+}
+    .navbar-top ul {
+    list-style: none;
+    padding: 5px 0 5px 0;
+    margin: 0;
+    text-align: right;
+}
+        .navbar-top ul li {
+    display: inline-block;
+    margin: 0 6px;
+}
+        .navbar-top .top-menu-left {
+    text-align: center;
+    padding-bottom: 0;
+}
+        @media (min-width: 992px){
+.navbar-top .top-menu-left {
+    text-align: left;
+    padding-bottom: 5px;
+}
+        }
+        .header__nav {
+    height: auto;
+}
+         .icons em {
+			 margin:10px;
+			 margin-top: 20px;
+			 font-size: 36px;
+		 }
+		  .icons img {
+			 margin:10px;
+			 margin-top: 20px;
+			  margin-bottom: 0px;
+			 font-size: 36px;
+		 }
+		 .hizmetler {
+			 background-color: #f5f8fe;
+			 border: 1px solid #fff;
+			 height: 140px;
+    		 min-height: 124px;
+             transition: all .2s ease-in-out;
+		 }
+		 .hizmetler:hover {
+			 background-color: #adb9ca7a;
+		 }
+
+		 .hizmetler h4 {
+			 font-weight: 400;
+			 color: #25292f;
+			 font-size:16px;
+		 }
+
+        .services {
+            background-color: #fff;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+		 .services a {	
+             text-decoration: none;
+             
+		 }
+        .question a {
+    color: #062a54;
+            text-decoration: none;
+}
+		 .question li {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 9px;
+    }
+    .question li a {
+    font-size: 16px;
+    }
+    .question hr {
+    margin: 13px 0;
+    border-color: #dcdcdc;
+    }
+    .question .icons {
+    margin-top: 40px;
+    }
+    .question .icons .item {
+    display: flex;
+    text-align: left!important;
+        font-size: 16px;
+    }
+        .question .icons .item .icon-phone {
+    font-size: 3.7rem;
+}
+        .question .icons .item .text {
+   margin-top: 20px;
+}
+        .question {
+    padding: 80px 0;
+    font-size: 1.8rem;
+    color: #25292f;
+    text-align: center;
+    background-color: #f5f7f8;
+}
+        .question h3 {
+    font-size: 2rem;
+    text-align: left;
+    margin-bottom: 16px;
+            font-weight: 700;
+}
+        .footer__bottom {
+    
+    background-color: #ffffff;
+}
+      .footer__social-list-item {
+    
+    color: #002867;
+  border: 1px solid #002867;
+}
+        .footer__copyright p {
+   
+    color: #002867;
+  
+}
+        .footer__logo img {
+            height: 60px;
+        }
+        .footer__social-list-item:focus, .footer__social-list-item:hover {
+    text-decoration: none;
+    color: #3b8cea;
+}
+.card__text-container h2 {
+    font-size: 16px!important;
+}
+.card__text-container p {  
+    -webkit-line-clamp: 4;
+}
+.footer__copyright a {
+    text-decoration: none;
+}
+.yardim img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+.yardim p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 22px;
+}
+.news {
+    padding: 40px 0;
+}
+
+.content-area {
+    padding: 30px;
+}
+.news-archive__list-item {
+    display: contents;
+}
+@media (max-width: 767px){
+    .bread-crumb {
+    display: block !important;
+    margin-top: 40px;
+}
+}
+@media (max-width: 467px){
+    .bread-crumb {
+    display: block !important;
+    margin-top: 60px;
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+  .bread-crumb {
+    display: block !important;
+    margin-top: 20px;
+}  
+}
+
+.obs-giris {
+    background-color: #fdc553;
+	color:	#000;
+}
+.obs-giris span {
+	color: #000;
+}
+.obs-giris a:hover {
+    background-color: #358aed !important;
+}
+.obs-giris a:hover span { 
+	color: #fff !important; 
+}
+.content-area li {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.content-area .tablo-baslik {
+    font-weight: 700;
+    text-align: left;
+    background-color: #eef1f7;
+    border-color: #002867;
+    font-size: 16px;
+}
+.project__filter input {
+    width: 160px;
+    margin-left: 2%;
+    margin-bottom: 0;
+    display: table-column-group;
+    background-color: #3a8cea;
+    color: #fff;
+    font-size: 16px;
+}
+@media (max-width: 992px) {
+   .project__filter input {
+    margin-left: 0%;
+    margin-top: 2%;
+} 
+       .form-control-bolum {
+    margin-top: 2%;
+    
+} 
+}
+
+.form-control {
+    font-size: 16px;
+    min-width: 300px;
+} 
+@media (min-width: 992px) {
+   .form-control-bolum {
+    margin-left: 2%;
+    
+} 
+}
+.bootstrap-select > select {
+    left: auto !important; 
+   
+}
+
+.table-baslik {
+    background-color: #425264 !important;
+    color: #fff;
+    font-weight: 700;
+}
+.table-baslik-en {
+    background-color: #425264 !important;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+table tr td a {
+    text-decoration: none !important;
+}
+.table-responsive h4 {
+    margin-top: 20px;
+
+}
+
+@media (max-width: 992px) {
+   .table-responsive h4 {
+    margin-left: 2%;
+    
+} 
+    .form-control {
+    max-width: 260px !important;
+        min-width: auto;
+}
+}
+.belgeler {
+    list-style: none; 
+    margin-left: -40px;
+}
+.belgeler i {
+    font-size: 20px;
+    margin-right: 7px;
+    color: #002867; 
+}
+.belgeler a {
+    text-decoration: none;   
+}
+
+
+/*
+
+Petek Yapı
+*/
+*, *::before, *::after {
+	 box-sizing: border-box;
+}
+.honeycomb-bac{
+	padding-bottom: 100px;
+	position: relative;
+    background-image: url(https://sss.sis.itu.edu.tr/images/librariesprovider71/sss/sss-bac.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.honeycomb-bac h2{
+	color: #002d62;
+	margin: 0 0 20px;
+    font-size: 46px;
+    font-weight: 700;
+}
+	
+
+ .honeycomb {
+	 display: flex;
+	 flex-wrap: wrap;
+	 justify-content: center;
+	 align-items: center;
+	 max-width: 1200px;
+	 margin: 0 auto;
+	 padding: 0;
+	 transform: translateY(20.625px);
+	 list-style: none;
+	 
+}
+ .honeycomb-cell {
+    flex: 1 1 100px;
+    max-width: 112px;
+    height: 60px;
+	 margin: 55.2857142857px 12.5px 25px;
+	 position: relative;
+	 padding: 0.5em;
+	 text-align: center;
+	 z-index: 1;
+	 padding-top: 40px
+}
+ .honeycomb-cell__title {
+	height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    hyphens: auto;
+    word-break: break-word;
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    transition: opacity 350ms;
+    margin-top: -15px;
+	
+}
+.honeycomb-cell__title a{
+	color: #000;
+	text-decoration: none;
+}
+ .honeycomb-cell__title p {
+	 font-size: 36px;
+	 font-weight: 700;
+}
+ .honeycomb-cell__title > small {
+	 font-weight: 300;
+	 margin-top: 0.25em;
+}
+ .honeycomb-cell__image {
+	 object-fit: cover;
+	 object-position: center;
+}
+ .honeycomb-cell::before, .honeycomb-cell::after {
+	 content: '';
+}
+ .honeycomb-cell::before, .honeycomb-cell::after, .honeycomb-cell__image {
+	 top: -50%;
+	 left: 0;
+	 width: 100%;
+	 height: 200%;
+	 display: block;
+	 position: absolute;
+	 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+	 z-index: -1;
+}
+ .honeycomb-cell::before {
+	 background: #fff;
+	 transform: scale(1.055);
+	 
+}
+ .honeycomb-cell::after {
+	 background: #fdc551;
+	
+}
+ .honeycomb-cell:hover::before {
+	 background: #3b8cea;
+}
+ .honeycomb-cell:hover::after {
+	 opacity: 0.1;
+	 transition: opacity 350ms;
+}
+ .honeycomb-cell:hover .honeycomb-cell__title {
+	color: #fff !important;
+}
+ .honeycomb-cell:hover a {
+	color: #fff !important;
+}
+ .honeycomb__placeholder {
+	 display: none;
+	 opacity: 0;
+	 width: 150px;
+	 margin: 0 12.5px;
+}
+   
+
+/*
+
+Petek Yapı
+*/
+
+.card__text-container h2 {
+    -webkit-line-clamp: 3 !important;
+ 
+}
+.news__list-item .card__text-container {
+    min-height: 205px !important;
+}
+
+/*
+Select Arama
+*/
+
+@media (min-width:996px) {
+:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+ 	width: 28% !important;
+    float: left;
+    margin-left: 20px;
+}
+	}
+@media (max-width:1200px) {
+.project__filter .button {
+	margin-top:10px !important;
+	margin-left: 10px;
+}
+}
+
+@media (max-width:480px) {
+	:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+ 	width: 300px;
+    float: left;
+    margin-left: 0px;
+	margin-top: 10px;
+}
+}
+
+@media (max-width:1200px) {
+	:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+ 	width: 300px;
+    float: left;
+    margin-left: 10px;
+	margin-top: 10px;
+}
+}
+@media (max-width:375px) {
+	:not(.input-group)>.bootstrap-select.form-control:not([class*=col-]) {
+ 	width: 220px!important;
+    float: left;
+    margin-left: 0px !important;
+	margin-top: 10px;
+}
+	.project__filter .button {
+	margin-top:10px !important;
+	margin-left: 0px;
+}
+}
+	
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover {
+    color: #000 !important;
+	background-color: #fff;
+}
+.bs-searchbox input {
+	margin-left: 0px !important;
+	background-color: #425363;
+	border: none;
+}
+
+@media (min-width: 992px){
+	.content-area h1 {
+    font-size: 25px;
+    margin: 0px 0 24px;}
+	.content-area h2 {
+    font-size: 20px;
+    margin: 0px 0 10px;
+}
+}
+.table-bordered, .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th, .worker-list__detail table>tbody>tr>td, .worker-list__detail table>tbody>tr>th, .worker-list__detail table>tfoot>tr>td, .worker-list__detail table>tfoot>tr>th, .worker-list__detail table>thead>tr>td, .worker-list__detail table>thead>tr>th {
+    border: 1px solid #bfbfbf !important;
+}
+
+.button {
+   width: 160px;
+    margin-left: 2%;
+    margin-bottom: 0;
+    display: table-column-group;
+    background-color: #3a8cea;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 0;
+    height: 38px;
+    border-color: #e1e6e8;
+    box-shadow: none;
+}
+.input-group {
+    position: relative; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+	margin-bottom: 10px;
+}
+.input-group-append, .input-group-prepend {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.input-group-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+	width: 120px;
+}
+.form-control {
+	display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.input-group .form-control {
+	margin-top: 0px; 
+    max-width: 120px !important;
+}
+
+.ders-bilgileri {
+	margin-left: 0px !important;
+	background-color: #fff !important; 
+    color: #000 !important;
+	
+}
+.button-2 {
+	margin-left: 0px !important;
+}
+
+.OrtaBalkBold {
+    text-align: center;
+    font-weight: bold;
+}
+.yonetmelik p {
+    margin: 0px;
+    margin-top: 10px
+}
+
+.ders-denklikleri b {
+    width: 74px;
+    display: inline-flex;
+} 
+@media (max-width: 1200px) {
+ .ders-denklikleri b {
+    width: 74px;
+    display: flex;
+}   
+}
+ 
+.ders-denklikleri .form-control {
+    float: none !important;
+    margin-bottom: 10px !important;
+    margin-left: 0px !important;
+}
+
+.mezun-input-text {
+    width: 140px;
+}
+.input-group .mezuniyet {
+  max-width: 200px !important;
+}
+.iletisim .item {
+    display: inline-flex;
+}
+.iletisim em {
+    margin: 20px !important;
+    margin-top: 0px !important;
+    font-size: 36px;
+}
+
+@media print {
+    .header{
+        display: none !important;
+    }
+    .footer {
+        display: none !important;
+    }
+	.bread-crumb__item  {
+        display: none !important;
+    }
+	.content-area {
+		margin-top: -200px !important;
+	}
+	.project__filter {
+		display: none; 
+	}
+	 a[href]:after {
+    content: none !important;
+  }
+
+}
+
+/*Akademik Takvim*/
+
+	.toggleEvents{
+			list-style: none;
+			padding: 0;
+			margin: 0 0 30px 0;
+		}
+
+
+
+
+		.toggleEvents li{
+			display: block;
+			margin-bottom: 20px;
+			cursor: pointer;
+			position: relative;
+			padding-left: 20px;
+			padding-bottom: 0;
+		}
+
+		@media(min-width: 992px){
+			.toggleEvents li{
+				display: inline-block;
+				margin-right: 20px;
+			}
+		}
+
+
+		.toggleEvents li:before{
+			content: '';
+			width: 16px;
+			height: 16px;
+			border-radius: 8px;
+			background-color:#dedede;
+			position: absolute;
+			left: 0;
+			top: 50%;
+			transform: translate(0,-50%);
+		}
+
+		.toggleEvents li.selected:after{
+			content: '';
+			width: 8px;
+			height: 8px;
+			border-radius: 4px;
+			background-color:#062a54;
+			position: absolute;
+			left: 4px;
+			top: 50%;
+			transform: translate(0,-50%);
+		}
+		.fc-h-event{
+			background-color: transparent !important;
+			border: none !important;
+			border-radius: 0;
+			padding: 10px;
+		}
+
+		.fc .fc-daygrid-day-top{
+			flex-direction: row !important;
+		}
+
+		.fc-h-event:hover{
+			background-color: #062a54 !important;
+			
+		}
+
+		.fc-h-event:hover .fc-event-title{
+			color: #fff;
+		}
+
+		.fc-h-event:hover .fc-event-title:before{
+			background-color: #fff;
+			color: #062a54;
+			border-radius: 2px;
+		}
+
+		.fc-event-title{
+			margin-bottom: 2px !important;
+			display: block !important;
+			text-align: center;
+		}
+		
+		.fc-event-title, .fc-list-event-title a{
+			display: block;
+		}
+        .fc .fc-daygrid-day-number {
+        color: #002867;
+        }
+		.fc-event-title:before{
+			display: block;
+			margin-bottom: 5px;
+            font-weight: 700;
+		}
+
+		.fc-list-event-title a:before{
+			float: right;
+		}
+
+		.fc-list .fc-list-event-title a:before{
+			right: 0;
+            font-weight: 700;
+		}
+
+		.lisansustu .fc-list-event-title a:before, 
+		.lisansustu .fc-event-title:before{
+			content: 'Lisansüstü';
+			color: #ca1000;
+		}
+		.lisans .fc-list-event-title a:before, 
+		.lisans .fc-event-title:before{
+			content: 'Lisans';
+			color: #3889F2;
+		}
+		.hazirlik .fc-list-event-title a:before, 
+		.hazirlik .fc-event-title:before{
+			content: 'İngilizce Hazırlık';
+			color: #8E24AA;
+		}
+		.ikinci-ogretim .fc-list-event-title a:before, 
+		.ikinci-ogretim .fc-event-title:before{
+			content: 'II.Öğretim Lisansüstü';
+			color: #73451D;
+		}
+        .yatay-gecis .fc-list-event-title a:before, 
+		.yatay-gecis .fc-event-title:before{
+			content: 'Lisans Yatay Geçiş, ÇAP, Yandal Süreci';
+			color: #914d14;
+		}
+        .onkayit .fc-list-event-title a:before, 
+		.onkayit .fc-event-title:before{
+			content: 'Önkayıt';
+			color: #616161;
+		}
+	.lisansustu-en .fc-list-event-title a:before, 
+		.lisansustu-en .fc-event-title:before{
+			content: 'Graduate';
+			color: #E4C441;
+		}
+		.lisans-en .fc-list-event-title a:before, 
+		.lisans-en .fc-event-title:before{
+			content: 'Undergraduate';
+			color: #E67C73;
+		}
+		.hazirlik-en .fc-list-event-title a:before, 
+		.hazirlik-en .fc-event-title:before{
+			content: 'English Preparatory';
+			color: #8E24AA;
+		}
+		.ikinci-ogretim-en .fc-list-event-title a:before, 
+		.ikinci-ogretim-en .fc-event-title:before{
+			content: 'Graduate Level Evening Education';
+			color: #914d14;
+		}
+        .yatay-gecis-en .fc-list-event-title a:before, 
+		.yatay-gecis-en .fc-event-title:before{
+			content: 'Undergraduate Internal Transfer, Double Major, Mino';
+			color: #914d14;
+		}
+        .onkayit .fc-list-event-title a:before, 
+		.onkayit .fc-event-title:before{
+			content: 'Pre-Registration';
+			color: #616161;
+		}
+		.resmi-tatiller .fc-list-event-title a:before, 
+		.resmi-tatiller .fc-event-title:before{
+			content: 'Resmi Tatiller';
+			color: #fb9800;
+		}
+		.resmi-tatiller-en .fc-list-event-title a:before, 
+		.resmi-tatiller-en .fc-event-title:before{
+			content: 'Public Holidays';
+			color: #fb9800;
+		}
+
+
+        .fc-direction-ltr .fc-list-day-text, .fc-direction-rtl .fc-list-day-side-text {
+            float: left;
+            color: #002867;
+        }
+        .fc-list-day-side-text {
+            color: #002867;
+        }
+
+
+
+		#loading {
+			display: none;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+
+		#calendar {
+			max-width: 100%;
+			margin: 0 auto;
+		}
+
+
+		.fc-daygrid-day-number {
+			font-size: 24px;
+			font-weight: bold;
+		}
+
+		.fc-h-event .fc-event-title {
+			font-size: 14px;
+			white-space: normal;
+			margin-bottom: 20px;
+			color: #000000;
+		}
+		.fc .fc-col-header-cell-cushion {
+			display: inline-block;
+			padding: 2px 4px;
+			font-size: 16px;
+			color: #002867;
+		}
+        @media(max-width: 992px){
+			#calendar{
+				height: 800px;
+			}
+		}
+        @media(max-width: 540px){
+                .fc .fc-toolbar {
+                display: inline !important;
+                }
+                .fc .fc-toolbar-title {
+                margin-bottom: 5px  !important;
+                margin-top: 5px !important;
+            }
+			
+            .fc-h-event {
+                padding: 5px;
+            }
+            .fc-h-event .fc-event-title {
+            font-size: 10px;
+                }
+            .fc-daygrid-event {
+                margin-left: 0px !important;
+                margin-right: 0px !important;
+            }
+            .fc .fc-col-header-cell-cushion {
+                font-size: 10px;
+            }
+            }
+
+.fc .fc-button-primary { 
+    background-color: #002867 !important; 
+    border-color: #002867 !important;
+}
+.fc .fc-button-primary:disabled {
+    background-color: #002867 !important; 
+}
+.fc .fc-button-active {
+    background-color: #3a8cea !important; 
+} 
+
+/*Akademik Takvim*/
+
+
+/* OBS Sayfası */
+.mb-5{
+    margin-bottom: 50px;
+}
+.mb-4{
+    margin-bottom: 40px;
+}
+.mb-3{
+    margin-bottom: 30px;
+}
+.mb-2{
+    margin-bottom: 20px;
+}
+.mb-1{
+    margin-bottom: 10px;
+}
+.obs .box{
+    padding:15px;
+    border: 1px solid #e1e6e8;
+    background-color: #f5f8fe;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 280px;
+    padding-bottom: 0px;
+}
+
+.obs .box:hover, .obs .box:focus{
+    text-decoration: none;
+}
+
+.obs .box .icon-container{
+    border: 1px solid #e1e6e8;
+    background-color: #fff;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.obs .box h2{
+    display: block;
+    color: #062a54;
+    font-weight: 700;
+}
+
+.obs .box:hover{
+    border: 1px solid #e1e6e8;
+    background-color: #ebedf1;
+}
+
+.obs .box p{
+    color: #062a54;
+}
+services.layout4 .hizmetler a span{
+    position:absolute;
+    right:10px;
+    top:10px;
+    padding: 2px 10px;
+    color: #fff;
+    background-color:#002d62
+}
+
+/* İTÜ OİDB CSS -  /// 28.06.2021*/
