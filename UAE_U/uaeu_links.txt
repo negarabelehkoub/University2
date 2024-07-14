@@ -1,3 +1,4 @@
 https://www.uaeu.ac.ae/en/admission/undergraduate-scholarships-for-international-students.shtml
 https://pay.uaeu.ac.ae/api/Transaction/Create
 https://www.uaeu.ac.ae/en/calendar/
+https://www.uaeu.ac.ae/en/catalog/undergraduate/programs/
