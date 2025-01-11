@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="loadEvent()">
+    <h1 id="header">welcome!</h1>
+
+    <div>
+        <select name="color options" id="color" onchange="outputText()">
+        <option value="1">white</option>
+        <option value="2">blue</option>
+        <option value="3">black</option>
+    </select>
+    </div>
+
+    <div>
+        <img src="IMG_1.jpg" id="the image" onmouseover="changeImage()" onmouseout="revertImage()" width="564" height="1002">
+    </div>
+
+    <script>
+        function loadEvent() {
+           alert("page loaded");
+        }
+
+        function outputText() {
+            alert("thanks for your choice")
+        }
+
+        function changeImage() {
+            document.getElementById('myImage').src = 'IMG_2.jpg';
+        }
+
+        function revertImage() {
+            document.getElementById('myImage').src = 'IMG_1.jpg';
+        }
+    </script>
+</body>
+</html>
