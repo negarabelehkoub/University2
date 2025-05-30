@@ -1,0 +1,11 @@
+https://bogazici.edu.tr/tr_TR/Content/Akademik/Lisans_Katalogu/Egitim_Fakultesi/Bilgisayar_Egitim_Teknolojileri
+<<<<<<< HEAD
+<<<<<<< HEAD
+https://bogazici.edu.tr/en-US/Content/Academic/Undergraduate_Catalogue
+=======
+https://registration.boun.edu.tr/BUIS/BUISAPPS/GradApplication.aspx
+>>>>>>> f70ec0e1dd786830099df60188e0b1d111971985
+=======
+https://registration.boun.edu.tr/BUIS/BUISAPPS/GradApplication.aspx
+https://bogazici.edu.tr/en-US/Content/Academic/Undergraduate_Catalogue
+>>>>>>> d8bfecd9a811a19a1a3b94a332111781eee3069a
