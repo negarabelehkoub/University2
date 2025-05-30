@@ -1,0 +1,12 @@
+https://www.itu.edu.tr/en/all-departments
+https://www.sis.itu.edu.tr/EN/student/undergraduate/course-plans/plans/BLGE/202210.html
+https://www.abet.org/
+https://bm.itu.edu.tr/en/education/undergraduate/computer-engineering/general-information
+https://www.itu.edu.tr/en/programs
+<<<<<<< HEAD
+https://www.sis.itu.edu.tr/EN/student/intenational-students/registration.php
+https://www.sis.itu.edu.tr/EN/application-admission/application-admission.php
+=======
+https://www.takvim.sis.itu.edu.tr/AkademikTakvim/EN/academic-calendar/index.php?takvimadi=17
+>>>>>>> f70ec0e1dd786830099df60188e0b1d111971985
+https://www.sis.itu.edu.tr/onkayitlar/lsyabanci/basvuru/index.php?islem=kontenjanlar-sartlar
